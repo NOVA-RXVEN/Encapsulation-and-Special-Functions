@@ -4,7 +4,7 @@ class IOString:
         self.__word = ""
     
     def inputString(self):
-        self.__word = str(input("Enter Your Name: "))
+        self.__word = input("Enter Your Name: ")
         
     def revString(self):
         return self.__word[::-1] 
