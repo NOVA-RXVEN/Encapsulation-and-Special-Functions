@@ -6,7 +6,7 @@ class myClass:
         print("I'm inside class myClass")
         
     def hello(self):
-        print(f"Private Variable Value: ",myClass.__privateVar)
+        print(f"Private Variable Value:{myClass._privateVar}")
         
 foo = myClass()
 
